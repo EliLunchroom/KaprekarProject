@@ -14,7 +14,7 @@ kaprekarTestCmocka: kaprekarUtils.o kaprekarTestCmocka.c
 	$(CC) $(FLAGS) -l cmocka kaprekarTestCmocka.c kaprekarUtils.o $(INCLUDES) -o kaprekarTestCmocka
 
 kaprekarUtils.o: kaprekarUtils.c kaprekarUtils.h
-	$(CC) $(FLAGS) -c kaprekarUtils.c $(INCLUDES) -o kaprekarUtils.o 
+	$(CC) $(FLAGS) -c kaprekarUtils.c $(INCLUDES) -o kaprekarUtils.o
 
 clean:
 	rm -f *.o *~ kaprekarDemo kaprekarTest kaprekarTestCmocka
