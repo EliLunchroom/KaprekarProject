@@ -25,6 +25,7 @@
 int isKaprekar(int n) {
 
   if(n < 1) {
+    printf("n is less than 1");
     return 0;
   }
 
