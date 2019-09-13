@@ -25,7 +25,7 @@
 int isKaprekar(int n) {
 
   if(n < 1) {
-    printf("n is less than 0");
+    printf("n is less than 1");
     return 0;
   }
 
@@ -35,7 +35,7 @@ int isKaprekar(int n) {
 
   //compute the number of digits of the square
   int numDigits = (int) log10(n) + 1;
-  long modulus = n;
+  long modulus = 1;
   long first, second;
 
   //for each possible "split" of the square...
