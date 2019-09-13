@@ -24,6 +24,7 @@
  */
 int isKaprekar(int n) {
 
+  /*
   if(n < 1) {
     return 0;
   }
@@ -51,7 +52,7 @@ int isKaprekar(int n) {
     if(second > 0 && n == first + second) {
       return 1;
     }
-  }
+  }*/
   return 0;
 
 }
