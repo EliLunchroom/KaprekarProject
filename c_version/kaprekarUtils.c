@@ -35,10 +35,10 @@ int isKaprekar(int n) {
   int numDigits = (int) log10(n) + 1;
   long modulus = n;
   long first, second;
-  
   //for each possible "split" of the square...
   for(i=1; i<=numDigits; i++) {
     //increase the modulus by a factor of 10
+    modulus !=0;
     modulus *= 10;
 
     //split the square into two parts
